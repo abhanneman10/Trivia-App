@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E153DE061CFCDEB000A5AC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */; };
 		E153DE081CFCDEB000A5AC51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE071CFCDEB000A5AC51 /* ViewController.swift */; };
-		E153DE0B1CFCDEB000A5AC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E153DE091CFCDEB000A5AC51 /* Main.storyboard */; };
 		E153DE0D1CFCDEB000A5AC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */; };
 		E153DE101CFCDEB000A5AC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E153DE0E1CFCDEB000A5AC51 /* LaunchScreen.storyboard */; };
 		E153DE1B1CFCDEB000A5AC51 /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE1A1CFCDEB000A5AC51 /* TriviaTests.swift */; };
 		E153DE261CFCDEB000A5AC51 /* TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE251CFCDEB000A5AC51 /* TriviaUITests.swift */; };
+		E153DE371CFCE05700A5AC51 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE331CFCE05700A5AC51 /* Button.swift */; };
+		E153DE381CFCE05700A5AC51 /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE341CFCE05700A5AC51 /* InputText.swift */; };
+		E153DE391CFCE05700A5AC51 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE351CFCE05700A5AC51 /* Modal.swift */; };
+		E153DE3A1CFCE05700A5AC51 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE361CFCE05700A5AC51 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 		E153DE021CFCDEB000A5AC51 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E153DE071CFCDEB000A5AC51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E153DE0A1CFCDEB000A5AC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E153DE0F1CFCDEB000A5AC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E153DE111CFCDEB000A5AC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		E153DE211CFCDEB000A5AC51 /* TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E153DE251CFCDEB000A5AC51 /* TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITests.swift; sourceTree = "<group>"; };
 		E153DE271CFCDEB000A5AC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E153DE331CFCE05700A5AC51 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E153DE341CFCE05700A5AC51 /* InputText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputText.swift; sourceTree = "<group>"; };
+		E153DE351CFCE05700A5AC51 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		E153DE361CFCE05700A5AC51 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		E153DE041CFCDEB000A5AC51 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				E153DE331CFCE05700A5AC51 /* Button.swift */,
+				E153DE341CFCE05700A5AC51 /* InputText.swift */,
+				E153DE351CFCE05700A5AC51 /* Modal.swift */,
+				E153DE361CFCE05700A5AC51 /* UIColor.swift */,
 				E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */,
 				E153DE071CFCDEB000A5AC51 /* ViewController.swift */,
-				E153DE091CFCDEB000A5AC51 /* Main.storyboard */,
 				E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */,
 				E153DE0E1CFCDEB000A5AC51 /* LaunchScreen.storyboard */,
 				E153DE111CFCDEB000A5AC51 /* Info.plist */,
@@ -231,7 +240,6 @@
 			files = (
 				E153DE101CFCDEB000A5AC51 /* LaunchScreen.storyboard in Resources */,
 				E153DE0D1CFCDEB000A5AC51 /* Assets.xcassets in Resources */,
-				E153DE0B1CFCDEB000A5AC51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E153DE081CFCDEB000A5AC51 /* ViewController.swift in Sources */,
+				E153DE3A1CFCE05700A5AC51 /* UIColor.swift in Sources */,
+				E153DE391CFCE05700A5AC51 /* Modal.swift in Sources */,
+				E153DE371CFCE05700A5AC51 /* Button.swift in Sources */,
 				E153DE061CFCDEB000A5AC51 /* AppDelegate.swift in Sources */,
+				E153DE381CFCE05700A5AC51 /* InputText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E153DE091CFCDEB000A5AC51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E153DE0A1CFCDEB000A5AC51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E153DE0E1CFCDEB000A5AC51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +488,7 @@
 				E153DE2C1CFCDEB000A5AC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E153DE2D1CFCDEB000A5AC51 /* Build configuration list for PBXNativeTarget "TriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E153DE2F1CFCDEB000A5AC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E153DE301CFCDEB000A5AC51 /* Build configuration list for PBXNativeTarget "TriviaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E153DE321CFCDEB000A5AC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
