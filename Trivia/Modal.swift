@@ -18,6 +18,7 @@ public class Modal: UIViewController
   private var durationTimer: NSTimer!
   private var _bodyHeight: CGFloat = 90
   private var _height: CGFloat = 178
+    public var parentController : RandomQuestionController
 
   var width: CGFloat {
     var width = (view.frame.width - 2 * _settings.padding)
@@ -134,8 +135,10 @@ public class Modal: UIViewController
     fatalError("NSCoding not supported")
   }
   
-  public init(title: String?, body: String?, status: Status, settings: Settings = Settings())
+    public init(title: String?, body: String?, status: Status, parentController: RandomQuestionController, settings: Settings = Settings())
   {
+    self.parentController = parentController
+    
     super.init(nibName: nil, bundle: nil)
     
     self.titleLabel.text = title
@@ -187,6 +190,7 @@ public class Modal: UIViewController
     dismissButton.target = self
     dismissButton.selector = #selector(self.hide)
     dismissButton.addTarget(self, action: #selector(self.buttonTapped(_:)), forControlEvents: .TouchUpInside)
+    dismissButton.addTarget(self, action: #selector(self.closeModal(_:)), forControlEvents: .TouchUpInside)
     dialog.addSubview(dismissButton)
   }
   
@@ -224,6 +228,10 @@ public class Modal: UIViewController
     dismissButton.frame = CGRect(x: x, y: y + _bodyHeight + _settings.padding, width: w, height: _settings.buttonHeight)
     dismissButton.backgroundColor = metaForStatus(status).color
     dismissButton.layer.masksToBounds = true
+  }
+    
+  func closeModal(btn: ModalButton){
+       parentController.CloseModal()
   }
   
   func buttonTapped(btn: ModalButton)

@@ -27,7 +27,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dB-QZ-BN6">
-                                                        <rect key="frame" x="91" y="187" width="434" height="217"/>
+                                                        <rect key="frame" x="50" y="177" width="434" height="217"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Trivia App">
                                                                 <attributes>

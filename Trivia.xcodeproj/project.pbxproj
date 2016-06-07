@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E153DE061CFCDEB000A5AC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */; };
-		E153DE081CFCDEB000A5AC51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE071CFCDEB000A5AC51 /* ViewController.swift */; };
+		E153DE081CFCDEB000A5AC51 /* RandomQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE071CFCDEB000A5AC51 /* RandomQuestionController.swift */; };
 		E153DE0D1CFCDEB000A5AC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */; };
 		E153DE101CFCDEB000A5AC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E153DE0E1CFCDEB000A5AC51 /* LaunchScreen.storyboard */; };
 		E153DE1B1CFCDEB000A5AC51 /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE1A1CFCDEB000A5AC51 /* TriviaTests.swift */; };
@@ -17,6 +17,9 @@
 		E153DE381CFCE05700A5AC51 /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE341CFCE05700A5AC51 /* InputText.swift */; };
 		E153DE391CFCE05700A5AC51 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE351CFCE05700A5AC51 /* Modal.swift */; };
 		E153DE3A1CFCE05700A5AC51 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153DE361CFCE05700A5AC51 /* UIColor.swift */; };
+		E1FDCFFE1D07770100439A86 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCFFD1D07770100439A86 /* Services.swift */; };
+		E1FDD0001D07776200439A86 /* RandomQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCFFF1D07776200439A86 /* RandomQuestion.swift */; };
+		E1FDD0051D077A2C00439A86 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDD0041D077A2C00439A86 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 /* Begin PBXFileReference section */
 		E153DE021CFCDEB000A5AC51 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E153DE071CFCDEB000A5AC51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E153DE071CFCDEB000A5AC51 /* RandomQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionController.swift; sourceTree = "<group>"; };
 		E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E153DE0F1CFCDEB000A5AC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E153DE111CFCDEB000A5AC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		E153DE341CFCE05700A5AC51 /* InputText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputText.swift; sourceTree = "<group>"; };
 		E153DE351CFCE05700A5AC51 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		E153DE361CFCE05700A5AC51 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E1FDCFFD1D07770100439A86 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E1FDCFFF1D07776200439A86 /* RandomQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomQuestion.swift; sourceTree = "<group>"; };
+		E1FDD0041D077A2C00439A86 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +109,13 @@
 		E153DE041CFCDEB000A5AC51 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
-				E153DE331CFCE05700A5AC51 /* Button.swift */,
-				E153DE341CFCE05700A5AC51 /* InputText.swift */,
-				E153DE351CFCE05700A5AC51 /* Modal.swift */,
-				E153DE361CFCE05700A5AC51 /* UIColor.swift */,
+				E1FDD0061D077A5800439A86 /* Controllers */,
+				E1FDD0031D07789000439A86 /* Objects */,
 				E153DE051CFCDEB000A5AC51 /* AppDelegate.swift */,
-				E153DE071CFCDEB000A5AC51 /* ViewController.swift */,
 				E153DE0C1CFCDEB000A5AC51 /* Assets.xcassets */,
 				E153DE0E1CFCDEB000A5AC51 /* LaunchScreen.storyboard */,
 				E153DE111CFCDEB000A5AC51 /* Info.plist */,
+				E1FDCFFD1D07770100439A86 /* Services.swift */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -132,6 +136,27 @@
 				E153DE271CFCDEB000A5AC51 /* Info.plist */,
 			);
 			path = TriviaUITests;
+			sourceTree = "<group>";
+		};
+		E1FDD0031D07789000439A86 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E153DE331CFCE05700A5AC51 /* Button.swift */,
+				E153DE341CFCE05700A5AC51 /* InputText.swift */,
+				E153DE351CFCE05700A5AC51 /* Modal.swift */,
+				E153DE361CFCE05700A5AC51 /* UIColor.swift */,
+				E1FDCFFF1D07776200439A86 /* RandomQuestion.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		E1FDD0061D077A5800439A86 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E153DE071CFCDEB000A5AC51 /* RandomQuestionController.swift */,
+				E1FDD0041D077A2C00439A86 /* MenuController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E153DE081CFCDEB000A5AC51 /* ViewController.swift in Sources */,
+				E1FDD0001D07776200439A86 /* RandomQuestion.swift in Sources */,
+				E1FDD0051D077A2C00439A86 /* MenuController.swift in Sources */,
+				E153DE081CFCDEB000A5AC51 /* RandomQuestionController.swift in Sources */,
 				E153DE3A1CFCE05700A5AC51 /* UIColor.swift in Sources */,
 				E153DE391CFCE05700A5AC51 /* Modal.swift in Sources */,
+				E1FDCFFE1D07770100439A86 /* Services.swift in Sources */,
 				E153DE371CFCE05700A5AC51 /* Button.swift in Sources */,
 				E153DE061CFCDEB000A5AC51 /* AppDelegate.swift in Sources */,
 				E153DE381CFCE05700A5AC51 /* InputText.swift in Sources */,
